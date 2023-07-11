@@ -96,6 +96,14 @@ class DoublyLinkedList:
                 trmp = temp.prev
         return temp
     
+    def set (self,index,value):
+        temp = self.get(index)
+        if temp :
+            temp.value = value
+            return True
+        return False
+    
+    
         
         
             
